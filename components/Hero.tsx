@@ -35,7 +35,7 @@ const Hero = () => {
                 <div className="shrink-0 order-1 lg:order-2">
                     <div className="w-60 h-60 md:w-80 md:h-80 lg:w-90 lg:h-90 rounded-full border overflow-hidden">
                         <img
-                            src="hero-modified.png"
+                            src="/Hero-modified.png"
                             alt="Sharath"
                             className="w-full h-full object-cover"
                         />

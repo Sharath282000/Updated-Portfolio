@@ -30,7 +30,7 @@ const RecentPosts = () => {
                             <div className='flex flex-row justify-between'>
                                 <div className='flex flex-row flex-wrap items-center mb-4'>
                                     <Avatar>
-                                        <AvatarImage src="hero-modified.png" />
+                                        <AvatarImage src="/Hero-modified.png" />
                                     </Avatar>
                                     <div>
                                         <h4 className='text-black text-sm md:text-lg font-semibold'>Sharath</h4>
