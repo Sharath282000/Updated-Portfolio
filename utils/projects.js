@@ -1,6 +1,6 @@
 export const projectsData = [
   {
-    id: 9,
+    id: 7,
     title: "Arivu AI",
     description:
       "A highly capable and friendly AI text and voice assistant. Arivu purpose is to assist you with a wide range of questions and tasks, ensuring every interaction is both helpful and engaging.",
@@ -9,7 +9,7 @@ export const projectsData = [
     link: "https://arivu-ai.vercel.app/",
   },
   {
-    id: 1,
+    id: 6,
     title: "Old Version Portfolio Website",
     description:
       "My personal portfolio showcasing projects and skills, developed using modern component architecture.",
@@ -18,7 +18,7 @@ export const projectsData = [
     link: "https://sharath-space.netlify.app/",
   },
   {
-    id: 2,
+    id: 5,
     title: "Picso Loggio (Image Gallery)",
     description:
       "An open-source,PWA-enabled application for searching and freely downloading high-quality images from a public API.",
@@ -27,7 +27,7 @@ export const projectsData = [
     link: "https://picso-loggia.netlify.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Netflix Clone (Previous)",
     description:
       "A functional clone of the Netflix UI showcasing front-end styling and API integration for content display.",
@@ -36,7 +36,7 @@ export const projectsData = [
     link: "https://net-flix-clone-app.netlify.app/",
   },
   {
-    id: 4,
+    id: 3,
     title: "Blog-it (Full Stack Blog)",
     description:
       "A complete blogging platform featuring content creation, management, and user authentication.",
@@ -45,7 +45,7 @@ export const projectsData = [
     link: "https://app-blog-it.netlify.app/",
   },
   {
-    id: 5,
+    id: 2,
     title: "Julie: AI Personal Voice Assistant",
     description:
       "An AI voice assistant capable of sending emails, opening websites/apps, playing media, fetching data from Google, and performing OS commands.",
@@ -58,21 +58,12 @@ export const projectsData = [
     link: "https://github.com/Sharath282000/AI-personal-voice-assistant-Julie",
   },
   {
-    id: 6,
+    id: 1,
     title: "Students Hub (College Final Year Project)",
     description:
       "A social and professional networking platform connecting college students with each other and the placement cell (a blend of Facebook and LinkedIn).",
     techStack: ["PHP", "MySQL", "HTML", "Bootstrap", "JS"],
     imageUrl: "/students hub.png",
     link: "https://github.com/Sharath282000/studentshub",
-  },
-  {
-    id: 7,
-    title: "CinemaHub (Movie & TV Info)",
-    description:
-      "An application to browse the latest movies and TV shows, allowing users to watch trailers using the TMDB API.",
-    techStack: ["React Js", "TMDB API", "JavaScript"],
-    imageUrl: "/cinema hub.png",
-    link: "https://cinemashub.netlify.app/",
   },
 ];

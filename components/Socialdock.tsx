@@ -1,4 +1,6 @@
-import React from 'react'
+'use client'
+
+import { motion } from 'framer-motion'
 import Image from 'next/image'
 import { socials } from '@/utils/social'
 
@@ -13,7 +15,20 @@ const Socialdock = () => {
         z-999
       "
         >
-            <div
+            <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{
+                    opacity: 1,
+                    y: [0, -4, 0],
+                }}
+                transition={{
+                    opacity: { duration: 0.6, ease: 'easeOut' },
+                    y: {
+                        duration: 4,
+                        ease: 'easeInOut',
+                        repeat: Infinity,
+                    },
+                }}
                 className="
           flex
           items-center
@@ -32,7 +47,10 @@ const Socialdock = () => {
         "
             >
                 {socials.map((item) => (
-                    <a
+                    <motion.a
+                        whileHover={{ scale: 1.15 }}
+                        whileTap={{ scale: 0.95 }}
+                        transition={{ type: 'spring', stiffness: 300 }}
                         key={item.id}
                         href={item.link}
                         target="_blank"
@@ -53,9 +71,9 @@ const Socialdock = () => {
                             height={24}
                             className="opacity-90"
                         />
-                    </a>
+                    </motion.a>
                 ))}
-            </div>
+            </motion.div>
         </div>
     )
 }
