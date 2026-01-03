@@ -11,7 +11,7 @@ const Skills = () => {
         <h2 className="font-bold text-lg mb-1 md:text-xl">Technical Skills & Technologies</h2>
         <p className='text-slate-600 text-sm leading-relaxed'>The technologies behind the products and experiments I bring to life.</p>
 
-        <div className='flex items-center justify-center mt-4'>
+        <div className='flex mt-4'>
           <motion.div initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.3 }}

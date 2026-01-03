@@ -1,5 +1,14 @@
 export const projectsData = [
   {
+    id: 8,
+    title: "Updated Portfolio Website",
+    description:
+      "My personal space on the web to showcase projects, skills, and experiments. Designed with a minimal aesthetic, smooth scroll-based animations, and a strong focus on clarity, performance, and user experience.",
+    techStack: ["Next JS", "Tailwind CSS", "Framer Motion"],
+    imageUrl: "/Updated Portfolio.png",
+    link: "",
+  },
+  {
     id: 7,
     title: "Arivu AI",
     description:

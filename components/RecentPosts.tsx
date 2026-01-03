@@ -51,7 +51,7 @@ const RecentPosts = () => {
                                         </a>
                                     </div>
                                 </div>
-                                <p className='text-slate-600 leading-relaxed text-sm md:text-base'>
+                                <p className='text-slate-600 leading-relaxed whitespace-pre-line text-sm md:text-base'>
                                     {data.description}
                                 </p>
                                 <div className='mt-3 gap-2 flex flex-col lg:flex-row lg:gap-0 md:items-center md:justify-between'>
