@@ -34,7 +34,7 @@ const Works = () => {
                                 <p className='text-slate-600 leading-relaxed text-sm md:text-base'>{data.description}</p>
                             </div>
                             <div className='mt-5'>
-                                <a href={data.link} target='_blank' className='px-3 py-2 rounded-md bg-primary text-white text-xs md:text-sm'>
+                                <a href={data.link} target="_blank" rel="noopener noreferrer" className='px-3 py-2 rounded-md bg-primary text-white text-xs md:text-sm'>
                                     View Project
                                 </a>
                             </div>

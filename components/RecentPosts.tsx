@@ -22,6 +22,7 @@ const RecentPosts = () => {
                         <a
                             href="https://x.com/Sharath_tech"
                             target="_blank"
+                            rel="noopener noreferrer"
                             className="text-[#00A8CC] text-sm md:text-base underline shrink-0 whitespace-nowrap"
                         >
                             View All
@@ -29,12 +30,12 @@ const RecentPosts = () => {
                     </div>
                     <div className='flex flex-col md:flex-row gap-4 mb-2'>
                         {posts.map(data => (
-                            <motion.div initial={{ opacity: 0, x: 20 }}
+                            <motion.a initial={{ opacity: 0, x: 20 }}
                                 whileInView={{ opacity: 1, x: 0 }}
                                 viewport={{ once: true, amount: 0.3 }}
-                                transition={{ duration: 0.6, ease: 'easeOut' }} key={data.id} className='bg-white w-full border rounded-sm p-6'>
+                                transition={{ duration: 0.6, ease: 'easeOut' }} key={data.id} href={data.link} target="_blank" rel="noopener noreferrer" className='bg-white w-full border rounded-sm p-6 hover:shadow-lg transition-all cursor-pointer'>
                                 <div className='flex flex-row justify-between'>
-                                    <div className='flex flex-row flex-wrap items-center mb-4'>
+                                    <div className='flex flex-row items-center mb-4'>
                                         <Avatar>
                                             <AvatarImage src="/Hero-modified.png" />
                                         </Avatar>
@@ -44,11 +45,9 @@ const RecentPosts = () => {
                                         </div>
                                     </div>
                                     <div>
-                                        <a href={data.link} target='_blank'>
-                                            <Avatar>
-                                                <AvatarImage src="twitter-x.png" />
-                                            </Avatar>
-                                        </a>
+                                        <Avatar>
+                                            <AvatarImage src="twitter-x.png" />
+                                        </Avatar>
                                     </div>
                                 </div>
                                 <p className='text-slate-600 leading-relaxed whitespace-pre-line text-sm md:text-base'>
@@ -60,7 +59,7 @@ const RecentPosts = () => {
                                         {data.tags}
                                     </p>
                                 </div>
-                            </motion.div>
+                            </motion.a>
                         ))}
 
                     </div>
