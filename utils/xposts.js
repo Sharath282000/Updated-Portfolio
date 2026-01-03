@@ -10,7 +10,7 @@ export const posts = [
   {
     id: 1,
     description:
-      "Nothing better that coding at night.\n Working on an update to my portfolio.\n Work in progress.\n #buildinpublic",
+      "Nothing better than coding at night.\n Working on an update to my portfolio.\n Work in progress.\n #buildinpublic",
     link: "https://x.com/Sharath_tech/status/2006815363552731152",
     date: "02 Jan, 2026",
     tags: "#Coding, #Build",
