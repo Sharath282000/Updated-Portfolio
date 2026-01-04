@@ -3,6 +3,7 @@ import "./globals.css";
 import { Heebo, Inter } from 'next/font/google'
 import Socialdock from "@/components/Socialdock";
 import Footer from "@/components/Footer";
+import { Analytics } from '@vercel/analytics/next';
 
 export const heebo = Heebo({
   subsets: ['latin'],
@@ -47,6 +48,7 @@ export default function RootLayout({
         className={`${heebo.variable} ${inter.variable} antialiased`}
       >
         {children}
+        <Analytics />
         <Socialdock/>
         <Footer/>
       </body>
