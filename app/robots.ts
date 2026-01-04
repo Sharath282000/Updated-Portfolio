@@ -1,9 +1,11 @@
-export default function robots() {
+import { MetadataRoute } from 'next'
+
+export default function robots(): MetadataRoute.Robots {
   return {
     rules: {
-      userAgent: "*",
-      allow: "/",
+      userAgent: '*',
+      allow: '/',
     },
-    sitemap: "https://sharath.online/sitemap.xml",
-  };
+    sitemap: 'https://sharath.online/sitemap.xml',
+  }
 }
