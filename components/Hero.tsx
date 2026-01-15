@@ -3,11 +3,11 @@ import { motion } from "framer-motion"
 
 const Hero = () => {
     return (
-            <section className="max-w-7xl mx-auto px-6 py-15 md:py-24">
+            <section className="max-w-6xl mx-auto px-6 py-15 md:py-24">
                 <div className="flex flex-col gap-4 items-center lg:flex-row justify-center lg:items-stretch lg:justify-between">
 
 
-                    <motion.div initial={{ opacity: 0, x: 10 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.8, ease: 'easeOut' }} className="max-w-xl flex flex-col justify-center order-2 lg:order-1">
+                    <motion.div initial={{ opacity: 0, x: 10 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.8, ease: 'easeOut' }} className="max-w-xl text-center lg:text-left flex flex-col justify-center order-2 lg:order-1">
                         <h1 className="text-2xl lg:text-left md:text-4xl lg:text-5xl font-extrabold leading-tight mb-6">
                             Hi, I am Sharath,
                             <br />
