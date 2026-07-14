@@ -9,7 +9,7 @@ const Hero = () => {
 
 
                     <motion.div initial={{ opacity: 0, x: 10 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.8, ease: 'easeOut' }} className="max-w-xl text-center lg:text-left flex flex-col justify-center order-2 lg:order-1">
-                        <h1 className="text-2xl lg:text-left md:text-4xl lg:text-5xl font-extrabold leading-tight mb-6">
+                        <h1 className="text-2xl lg:text-left md:text-4xl lg:text-5xl font-extrabold leading-snug  mb-6">
                             Hi, I'm Sharath 👋
                             <br />
                             Oracle Cloud Security Engineer | Full-Stack Developer
@@ -33,7 +33,7 @@ const Hero = () => {
                     <div className="shrink-0 order-1 lg:order-2">
                         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: 'easeOut' }} className="w-60 h-60 md:w-80 md:h-80 lg:w-90 lg:h-90 rounded-full border overflow-hidden">
                             <img
-                                src="/Hero-modified.png"
+                                src="/DP.jpg"
                                 alt="Sharath"
                                 className="w-full h-full object-cover"
                             />

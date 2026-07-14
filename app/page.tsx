@@ -1,4 +1,5 @@
 import Contact from "@/components/Contact";
+import ExperienceTimeline from "@/components/Experience";
 import Hero from "@/components/Hero";
 import RecentPosts from "@/components/RecentPosts";
 import Skills from "@/components/Skills";
@@ -10,6 +11,7 @@ export default function Home() {
       <main>
         <Hero/>
         {/* <RecentPosts/> */}
+        <ExperienceTimeline/>
         <Works/>
         <Skills/>
         <Contact/>

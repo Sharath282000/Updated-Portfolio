@@ -8,8 +8,18 @@ const Skills = () => {
   return (
     <ScrollReveal>
       <div className='px-10 md:px-20 py-12 md:py-20'>
-        <h2 className="font-bold text-lg mb-1 md:text-xl">Technical Skills & Technologies</h2>
-        <p className='text-slate-600 text-sm leading-relaxed'>The technologies behind the products and experiments I bring to life.</p>
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.5 }}
+          className="text-center mb-16"
+        >
+          <h2 className="text-2xl md:text-4xl font-bold tracking-tight">
+            Technical Skills & Technologies
+          </h2>
+          <p className='text-slate-600 mt-3 text-sm leading-relaxed'>The technologies behind the products and experiments I bring to life.</p>
+        </motion.div>
 
         <div className='flex mt-4'>
           <motion.div initial="hidden"
