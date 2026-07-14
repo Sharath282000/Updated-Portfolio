@@ -71,4 +71,8 @@ export const skills = [
     id: 16,
     name: "Oracle Cloud Infrastructure",
   },
+  {
+    id: 19,
+    name: "Oracle AI Agents",
+  },
 ];

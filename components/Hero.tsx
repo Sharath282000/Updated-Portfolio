@@ -1,5 +1,6 @@
 'use client'
 import { motion } from "framer-motion"
+import { ArrowBigDown } from "lucide-react"
 
 const Hero = () => {
     return (
@@ -9,28 +10,23 @@ const Hero = () => {
 
                     <motion.div initial={{ opacity: 0, x: 10 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.8, ease: 'easeOut' }} className="max-w-xl text-center lg:text-left flex flex-col justify-center order-2 lg:order-1">
                         <h1 className="text-2xl lg:text-left md:text-4xl lg:text-5xl font-extrabold leading-tight mb-6">
-                            Hi, I am Sharath,
+                            Hi, I'm Sharath 👋
                             <br />
-                            Full-Stack Developer & Cloud Security Analyst
+                            Oracle Cloud Security Engineer | Full-Stack Developer
                         </h1>
 
                         <p className="text-slate-600 text-left text-sm leading-relaxed md:text-base md:leading-9 mb-8">
-                            Oracle Cloud Security Analyst at Deloitte,
-                            focused on user identity, access, and cloud security.
-
-                            Outside work, I build full-stack projects
-                            and experiment with modern web technologies.
-
-                            I enjoy breaking problems down,
-                            designing simple systems, and shipping consistently.
-
-                            Beyond code, Cricket and Cinema
-                            keep me grounded and inspired.
+                            Experience Associate at PwC,
+                            specializing in Oracle Cloud Security, Identity & Access Management, Oracle Cloud Infrastructure, Oracle AI Technologies.
+                            <br></br>
+                            Outside of work, I build modern full-stack web applications using modern technologies.
+                            I enjoy solving real-world problems, designing scalable systems, and continuosly learning new technologies. Beyond technology, Cricket and Cinema keep me inspired.
                         </p>
 
-                        {/* <button className="bg-secondary text-white px-6 py-3 w-full md:w-[50%] cursor-pointer rounded-md font-medium hover:opacity-90 transition">
-                        <p className='flex flex-row gap-3 items-center justify-center'>Download Resume <ArrowBigDown /></p>
-                    </button> */}
+                         <a className="bg-primary text-white px-6 py-3 w-full md:w-[50%] text-sm md:text-base cursor-pointer rounded-md font-medium hover:opacity-90 transition" href="/Sharath_Resume.pdf" download
+                            rel="noopener noreferrer">
+                        <p className='flex flex-row gap-3 items-center justify-center text-sm md:text-base'>Download Resume <ArrowBigDown className="text-sm md:text-base" /></p>
+                    </a>
                     </motion.div>
 
 

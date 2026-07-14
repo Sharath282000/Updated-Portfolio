@@ -9,7 +9,7 @@ export default function Home() {
     <div className="mb-5">
       <main>
         <Hero/>
-        <RecentPosts/>
+        {/* <RecentPosts/> */}
         <Works/>
         <Skills/>
         <Contact/>
