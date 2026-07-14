@@ -73,9 +73,14 @@ export default function ExperienceTimeline() {
                     </h3>
                     <p className="text-muted-foreground font-medium text-sm mt-0.5">{exp.role}</p>
                   </div>
-                  <span className="text-xs font-semibold tracking-wider text-muted-foreground md:text-right bg-card border border-border px-3 py-1 rounded-full self-start md:self-center">
-                    {exp.period}
-                  </span>
+                  <div className="flex flex-wrap md:flex-col items-start md:items-end gap-2 shrink-0">
+                    <span className="text-xs font-semibold tracking-wider text-muted-foreground bg-white/40 dark:bg-black/30 backdrop-blur-md border border-border px-3 py-1 rounded-full">
+                      {exp.period}
+                    </span>
+                    <span className="text-xs font-medium text-muted-foreground/80 flex items-center gap-1 md:mr-1">
+                      📍 {exp.location}
+                    </span>
+                  </div>
                 </div>
 
                 <ul className="space-y-2.5 text-foreground/80 dark:text-foreground/90 text-sm md:text-base leading-relaxed mb-6 list-disc list-outside pl-4">

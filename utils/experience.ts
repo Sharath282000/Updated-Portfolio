@@ -6,6 +6,7 @@ export interface TimelineItem {
   skills: string[];
   icon: string;
   current: boolean;
+  location: string;
 }
 
 const experienceData: TimelineItem[] = [
@@ -19,7 +20,8 @@ const experienceData: TimelineItem[] = [
     ],
     skills: ["Oracle Cloud AI Agents", "Oracle Cloud Fusion", "SOD Analysis", "Oracle Cloud Infrastructure", "Risk Mitigation","Oracle BI", "Oracle Risk Management Cloud"],
     icon: "💼",
-    current: true
+    current: true,
+    location : "Chennai, India"
   },
   {
     company: "Deloitte",
@@ -32,7 +34,8 @@ const experienceData: TimelineItem[] = [
     ],
     skills: ["Oracle Cloud Infrastructure", "Oracle Cloud Fusion HCM", "Oracle Cloud Fusion ERP", "Oracle Risk Management Cloud", "Access Governance", "Auditing"],
     icon: "🛡️",
-    current: false
+    current: false,
+    location : "Chennai, India"
   }
 ];
 
