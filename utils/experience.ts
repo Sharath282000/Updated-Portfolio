@@ -25,7 +25,7 @@ const experienceData: TimelineItem[] = [
   },
   {
     company: "Deloitte",
-    role: "Solution Delivery Analyst",
+    role: "Managed Services Engineer I",
     period: "Feb 2023 - June 2026",
     description: [
       "Worked as an Oracle Fusion Cloud Security Analyst, supporting enterprise Oracle HCM and ERP applications.", 
